@@ -16,4 +16,9 @@ public class DemoBss {
 return null;
 
     }
+    @PostMapping("/login4")
+    public Response login4(@RequestParam() String username, @RequestParam String password) {
+        return null;
+
+    }
 }
